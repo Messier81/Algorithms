@@ -1,12 +1,13 @@
+
+
+#Take absolute value to get rid of negative
+
+
 class Solution(object):
     def isPalindrome(self, x):
         """
         :type x: int
         :rtype: bool
-        """
-
-        """
-        :Take absolute value to get rid of negative
         """
         x = abs(x)
         if x < 10:
